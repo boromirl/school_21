@@ -1,0 +1,38 @@
+#ifndef BACKEND_DEFINES_H
+#define BACKEND_DEFINES_H
+
+#define FIELD_ROWS 22
+#define FIELD_COLUMNS 10
+
+#define VISIBLE_ROWS 20
+#define VISIBLE_COLUMNS FIELD_COLUMNS
+
+#define ROW_DIFF (FIELD_ROWS - VISIBLE_ROWS)
+
+#define FIGURE_COUNT 7
+
+#define START_Y 0
+#define START_X 4
+
+#define BLOCK_COUNT 4
+
+#define INITIAL_SPEED 100
+#define SPEED_1 80
+#define SPEED_2 70
+#define SPEED_3 60
+#define SPEED_4 50
+#define SPEED_5 45
+#define SPEED_6 40
+#define SPEED_7 35
+#define SPEED_8 30
+#define SPEED_9 25
+#define SPEED_10 20
+
+#define POINTS_ONE_LINE 100
+#define POINTS_TWO_LINES 300
+#define POINTS_THREE_LINES 700
+#define POINTS_FOUR_LINES 1500
+
+#define POINTS_FOR_LEVEL 600
+
+#endif

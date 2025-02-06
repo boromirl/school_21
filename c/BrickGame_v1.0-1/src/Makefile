@@ -62,7 +62,7 @@ dvi:
 
 dist:
 	mkdir $(DIST_DIR)
-	cp -r brick_game $(DIST_DIR)/brick_game && cp -r gui $(DIST_DIR)/gui && cp Makefile $(DIST_DIR)/Makefile && cp readme.md $(DIST_DIR)/readme.md  && cp main.c $(DIST_DIR)/main.c
+	cp -r brick_game $(DIST_DIR)/brick_game && cp -r gui $(DIST_DIR)/gui && cp Makefile $(DIST_DIR)/Makefile && cp main.c $(DIST_DIR)/main.c
 	tar -cvf $(DIST_FILE) $(DIST_DIR)
 	rm -rf $(DIST_DIR)
 

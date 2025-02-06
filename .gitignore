@@ -63,3 +63,14 @@ test_21_decimal
 report/
 
 report.info
+
+tetris
+.clang-format
+
+game/
+
+test_tetris
+
+high_score.txt
+
+docs/
